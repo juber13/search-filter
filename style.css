@@ -1,0 +1,74 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+}
+
+.container{
+    padding: 1rem;
+}
+
+.search-container{
+    width: 100%;
+    border-radius: 10px;
+    padding: 1rem 0;
+    position: relative;
+}
+
+input{
+    outline: none;
+    width: 90%;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    padding: 0.8rem;
+}
+
+.fa-solid{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 92%;
+  }
+
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 1rem;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fcf9f9;
+  }
+
+  tr:hover{
+    background-color: #eeeded;
+  }
+
+  .hl{
+    transition: all 0.4s ease;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: red;
+    font-size: 1.2rem;
+  }
+
+  #macthes{
+    position: absolute;
+    right: 13%;
+    top: 40%;
+    font-size: 1rem;
+    color: green;
+  }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/86e7f73ceb.js" crossorigin="anonymous"></script>
+    <title>Table Search</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="search-container" id="">
+                <input type="text" placeholder="Search for names..." maxlength="20" id="input">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span id="macthes">Total 0</span>
+            </div>
+
+            <div class="tabel" id="table-container">
+                <table id="user-table">
+                        <tr>
+                          <th>Name</th>
+                          <th>Country</th>
+                        </tr>
+                        <tbody id="t-body"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
